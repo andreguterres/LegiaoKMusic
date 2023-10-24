@@ -1,0 +1,180 @@
+﻿/*.principal {
+    background-image: url("/imagens/LegiaoKMusicPrincipal.png");
+    background-color: #5170FF;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+*/
+
+.principal {
+
+    background-position: center;
+}
+#bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#foto {
+    width: 200px;
+    margin: 1rem 0;
+    border-radius: 50%;
+}
+
+.secao-bemvindo {
+    margin: 5rem 0 10rem 0;
+    color: black;
+}
+
+.secao-bemvindo h1 {
+    margin-bottom: 0.5rem;
+}
+
+.secao-bemvindo p {
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1.20rem;
+}
+
+#imagem-dotnet {
+    width: 400px;
+}
+
+.cabecalho {
+    /*font-weight: bold;*/
+    background-color: #5170FF
+}
+
+.experiencia ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experiencia i {
+    color: #0d6efd;
+    font-size: 50px;
+}
+
+#footer {
+    background: #5170FF;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-position: center;
+}
+
+    #footer .socials-media ul {
+        display: inline-block;
+        float: none;
+        margin: 0 0 25px 0;
+        background-position: center;
+    }
+
+#footer .socials-media ul li {
+
+      float: left;
+      margin-left: 20px;
+      margin-right: 20px;
+}
+
+.credits {
+    font-size: 15px;
+}
+
+#carouselExampleIndicators {
+    background-color: #5170FF;
+    /*display: flex;*/
+    justify-content: center;
+}
+
+.apoie {
+    /*background-color: #FF66C4;*/
+    text-align: center;
+    color: white;
+}
+
+.kpop {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    background-color: #5170FF;
+    
+}
+
+.fundo {
+
+    background-color: #5170FF;
+    background-position: top;
+}
+
+#botao {
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.carousel-item active {
+    justify-content: center !important;
+}
+
+#informacoes {
+    text-align: center;
+    color: white;
+}
+
+.informacao {
+    top: inherit;
+    /*width: 300px;
+    height: 300px;*/
+    /*border: 1px solid;*/
+    /*overflow: auto;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;*/
+}
+
+a {
+    color: white;
+}
+
+#textorodape {
+    display: flex;
+    color: white;
+}
+
+#transporte {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 50px);
+}
+
+.border-top footer text-muted {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+i#hamburguer {
+    background-color: #FF66C4;
+    display: block;
+    color: #FF66C4;
+    text-align:justify;
+    padding: 10px;
+}
+
+i#hamburguer:hover{
+    background-color: white;
+    color: red;
+}
+
+div {
+    /*    390 x 914
+*/
+}
+
+
+
+
