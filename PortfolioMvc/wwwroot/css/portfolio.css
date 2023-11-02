@@ -244,39 +244,38 @@ body {
     flex-direction: row;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: sans-serif;
-}
-
-.carousel {
-    background: #EEE;
-}
-
-.carousel-cell {
-    width: 20%;
-    height: 300px;
-    margin-right: 10px;
-    background: #8C8;
-    border-radius: 5px;
-    /*counter-increment: gallery-cell;*/
-}
-
-    /* cell number */
-    .carousel-cell:before {
-        display: block;
-        text-align: center;
-        content: counter(gallery-cell);
-        line-height: 200px;
-        font-size: 80px;
-        color: white;
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none
     }
 
-#redesocial {
-/*    width: 200px;
-    height: 200px;*/
-    display: inline-block;
+        .carousel-inner .carousel-item > div:first-child {
+            display: block
+        }
 }
+
+.carousel-inner .carousel-item.active, .carousel-inner .carousel-item-next, .carousel-inner .carousel-item-prev {
+    display: flex
+}
+
+@media (min-width: 768px) {
+    .carousel-inner .carousel-item-end.active, .carousel-inner .carousel-item-next {
+        transform: translateX(25%)
+    }
+
+    .carousel-inner .carousel-item-start.active, .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%)
+    }
+}
+
+.carousel-inner .carousel-item-end, .carousel-inner .carousel-item-start {
+    transform: translateX(0)
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
